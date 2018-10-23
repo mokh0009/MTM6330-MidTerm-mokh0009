@@ -1,0 +1,181 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    background-color: #fffefe;
+    color: rgba(0, 0, 0, 0.78);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    font-size: 100%;
+    line-height: 1.64rem;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header, aside, nav, article, footer {
+    display:block;
+  }
+  
+  h1, h2, h3, h4, h5, h6{
+    color: #5f2b2b;
+  }
+  
+  a{
+    color: #613619;
+    text-decoration:none;
+  }
+  
+  .logo-wrapper {
+    background-image: url('img/banners/BANEEEER.png');
+  }
+  
+ 
+  .card{
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.678);
+    border-radius: 3px;
+    border-bottom: 10px solid #722a1e;
+    background-color: #eff4f8;
+    margin: 10px;
+  }
+  .card img{
+    border-radius: 3px 3px 0 0;
+  }
+  .card .caption{
+    margin: 0;
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .card .content{
+    font-size: 14px;
+    padding: 30px;
+  }
+  .card.contact-info{
+    padding: 10px;
+    text-align: center;
+  }
+  .card.shrink{
+    margin: 40px;
+  }
+  
+  .form input, .form textarea{
+    padding: 15px;
+    width: 100%;
+    border-radius: 3px;
+    border: 1px solid #5e5f5e;
+  }
+  
+  .button{
+    border: none;
+    background-color:#5abb8e;
+    border-radius: 3px;
+    padding: 10px 15px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+  }
+  
+  
+  .menu ul {
+    padding: 0;
+    list-style: none;
+  }
+  
+  .menu ul>li {
+    padding: 1rem;
+    float: left;
+    display: block;
+  }
+  
+  .top.menu ul>li a, .bottom.menu ul>li a {
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 3px;
+    background-color: rgb(255, 255, 255);
+    display: block;
+  }
+  
+  
+  .top.menu ul>li a:hover, .top.menu ul>li a.active {
+    color: rgb(206, 124, 76);
+  }
+  
+  .top.menu {
+    background-color: #926464;
+  }
+  
+  .bottom.menu {
+    background-color:#926464;
+  }
+  
+  .bottom.menu ul>li a {
+    background-color: #eff4f8;
+    color: #722a1e;
+  }
+  
+  .copy-right {
+    background: #3b3b3a;
+    padding: 10px;
+    color: #f4f7f7;
+    text-align: center;
+  }
+  
+  
+  .pad-top-50{
+    padding-top: 50px;
+  }
+  .pad-bottom-50{
+    padding-bottom: 50px;
+  }
+  .centered {
+    margin: 0 auto;
+  }
+  img.centered{
+    display: table;
+  }
+  .right-floated{
+    float: right;
+  }
+  .no-margin {
+    margin: 0;
+  }
+  
+  .wrap-children {
+    display: table;
+    position: relative;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .overlay-text {
+    position: absolute;
+    margin: 0;
+    top: 35%;
+    right: 0;
+    left: 0;
+    text-align: center;
+    color: black;
+    text-shadow: 2px 1px #dd6f8c;
+  }
+  .circle-icon{
+    background: black;
+    height: 100px;
+    width: 100px;
+    line-height: 100px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 50%;
+    border: 2px dashed #0d0e0e;
+  }
+  
